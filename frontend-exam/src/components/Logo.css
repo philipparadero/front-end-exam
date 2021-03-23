@@ -1,0 +1,21 @@
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 300px;
+  font-size: 1.8rem;
+}
+
+.logo-text {
+  text-decoration: none;
+  font-weight: 700;
+  color: #101010;
+}
+
+.logo-icon {
+  padding-right: 15px;
+}
+
+.white {
+  color: white;
+}

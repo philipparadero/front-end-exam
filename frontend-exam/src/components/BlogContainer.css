@@ -1,0 +1,49 @@
+.blog-container-section {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.blog-container-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-container-mapped {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 2rem;
+  width: 100%;
+}
+
+.blog-container-header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 65px;
+  width: 100%;
+}
+
+.blog-header {
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 10px;
+  align-self: flex-start;
+}
+
+.new-post-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blog-container-btn {
+  padding: 50px 0;
+}
+
+#load-more-btn button {
+  width: 500px;
+}
